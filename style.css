@@ -1,0 +1,66 @@
+* {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF2E2E;
+    padding: 20px;
+}
+.pic {
+    border-radius: 50px;
+}
+p {
+    font-size: 60px;
+    color: white;
+}
+ul {
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+.gamer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+    background-color: wheat;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+aside {
+    display: flex;
+    color: #FF2E2E;
+}
+
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #FF2E2E;
+}
+
+.text {
+    font-size: 13px;
+}
+
+.nav-link {
+    color: whitesmoke;
+}
+.nav-link:visited {
+    color: white;
+}
+a {
+    color: tomato;
+}
+a:visited {
+    color: lightcoral;
+}
