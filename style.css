@@ -77,9 +77,6 @@ h1 {
     padding: 5px;
     margin: 10px;
 }
-.card-title {
-    background-color: white;
-}
 
 /* My Work */
 article {
@@ -93,11 +90,9 @@ article {
     align-items: center;
     width: 100%;
 }
-.my-work {
-    /* height: 800px; */
-}
 .main-card {
-    border: 2px dotted #FF2E2E;
+    border: 2px solid #FF2E2E;
+    border-radius: 10px;
     width: 1600px;
 }
 .the-rest {
@@ -106,15 +101,26 @@ article {
     justify-content: space-around;
 }
 .card {
+    border:2px solid #FF2E2E;
+    border-radius: 10px;
     width: 750px;
 }
 .best-img {
-    height: 500px;
-    width: 500px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 900px;
+    width: 1596px;
 }
 .other {
+    border-radius: 10px;
     height: 300px;
-    width: 300px;
+    width: 746px;
+}
+.card-title {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    background-color: white;
 }
 
 .nav-link {
@@ -125,6 +131,9 @@ article {
 }
 a {
     color: tomato;
+}
+a:hover {
+    color: red;
 }
 a:visited {
     color: lightcoral;
