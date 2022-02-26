@@ -28,8 +28,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Help
 None
 ## Authors
-* Kayla De La Cruz
-* https://github.com/Topomat20
+Contributors names and contact info
+[Topomat20](https://github.com/Topomat20)
 ## Version History
 * 0.1
     * Initial Release

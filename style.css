@@ -2,6 +2,13 @@
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
+main {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -10,9 +17,9 @@ header {
     padding: 20px;
 }
 .pic {
-    border-radius: 50px;
+    border-radius: 20px;
 }
-p {
+.name {
     font-size: 60px;
     color: white;
 }
@@ -21,6 +28,7 @@ ul {
     justify-content: space-between;
 }
 
+/* sub header */
 .gamer {
     display: flex;
     justify-content: flex-end;
@@ -30,26 +38,83 @@ ul {
     padding: 20px;
 }
 
-main {
+/* About me */
+.first {
     display: flex;
-    flex-direction: column;
-    margin: 20px;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+p {
+    font-size: 20px;
+    color: #FF2E2E;
+}
+.about {
+    width: 1000px;
+}
+/* Contact Me */
+.second {
+    display: flex;
+    align-items: center;
+}
+.contact-me {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 aside {
     display: flex;
     color: #FF2E2E;
+    width: 100%;
 }
 
+h1 {
+    border-right: 2px solid #FF2E2E;
+    padding: 5px;
+    margin: 10px;
+}
+.card-title {
+    background-color: white;
+}
+
+/* My Work */
 article {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
     color: #FF2E2E;
 }
-
-.text {
-    font-size: 13px;
+.width {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.my-work {
+    /* height: 800px; */
+}
+.main-card {
+    border: 2px dotted #FF2E2E;
+    width: 1600px;
+}
+.the-rest {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.card {
+    width: 750px;
+}
+.best-img {
+    height: 500px;
+    width: 500px;
+}
+.other {
+    height: 300px;
+    width: 300px;
 }
 
 .nav-link {
